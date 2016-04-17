@@ -1,6 +1,6 @@
 # broken-links-basename-diff
 
-Bash script that runs linkchecker on two sites, extracts basenames from urls, then greps for unique basenames in the new site.
+Bash script that runs linkchecker on two sites, extracts basenames from urls, greps for unique basenames in the new site, grabs parent and real URL of basename, and downloads complete url list from old site.
 
 
-TODO: run linkchecker simultaneously on both projects (open a new terminal, etc.).
+TODO: wget old/missing resource from old site.
